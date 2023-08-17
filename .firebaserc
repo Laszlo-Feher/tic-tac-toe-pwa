@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tic-tac-toe-bedb2": {
+      "hosting": {
+        "tic-tac-toe-pwa": [
+          "tic-tac-toe-bedb2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tic-tac-toe-bedb2"
+  }
+}
