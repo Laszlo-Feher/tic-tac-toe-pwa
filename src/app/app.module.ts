@@ -9,12 +9,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NbThemeModule, NbLayoutModule, NbButtonModule} from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { HomeComponent } from './home/home.component';
+import { MultiplayerComponent } from './multiplayer/multiplayer.component';
+import { SinglelayerComponent } from './singlelayer/singlelayer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SquareComponent,
-    BoardComponent
+    BoardComponent,
+    HomeComponent,
+    MultiplayerComponent,
+    SinglelayerComponent
   ],
   imports: [
     BrowserModule,
